@@ -28,6 +28,8 @@ protocol DataSource {
 
 /// READ: Please implement a Data Source, which gets the required information from the JSON Data.
 struct Provider: DataSource {
+    
+    /// A temporary struct - delete this if you would want. :)
     struct Identity {
     }
     func fetchPlants() -> [Identity] {
